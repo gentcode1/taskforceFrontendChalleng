@@ -1,7 +1,13 @@
-<<<<<<< HEAD
+
 # taskForceChallenge
-=======
+
 # Getting Started with Create React App
+
+you can start by writting in terminal [npx create-react-app [folder-name]]  which will unable you to create your React app  which is named by [folder-name ]  and will install some react packages for you
+
+do npm i to intall other additional packages that i had installed by myself
+
+And then npm start to start the project after installation 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
