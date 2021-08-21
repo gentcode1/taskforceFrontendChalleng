@@ -1,0 +1,40 @@
+.app{
+margin:0;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+@media(max-width:440px){
+.app{
+flex-direction:column; 
+}
+}
+.app> h1{
+text-align: center;
+
+}
+.app__home{
+width:99vw;
+background-color: #2FC8B8;
+}
+.info__display{
+display:flex;
+flex:1;
+text-align:center;
+background-color: white;
+border-radius: 8px;
+border: 1px solid lightgray;
+height:50% ;
+width: 81%;
+margin-left: 10% ;
+margin-top: -1.5% ;
+z-index: 1;
+align-content:space-between;
+}
+.continent__info{
+
+display: flex;
+max-height: 30%;
+width:auto;
+border-radius: 4px;
+object-fit: contain;
+}

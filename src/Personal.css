@@ -1,0 +1,29 @@
+.personal{
+display:flex;
+flex:1;
+height: 70vh;
+width:96vw;
+padding: 24px;
+margin:4px;
+align-content:space-between;
+background-color: lightgray;
+
+text-align:center;
+}
+.personal__pic{
+height: 70vh;
+width:50vw;
+}
+.personal__pic > img{
+height: 70vh;
+width:40vw;
+
+object-fit:cover;
+display:flex;
+}
+.personal__info{
+
+text-align:center;
+background-color:lightgray;
+
+}

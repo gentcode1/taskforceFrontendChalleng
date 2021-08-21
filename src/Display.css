@@ -1,0 +1,27 @@
+
+.display{
+display: flex;
+flex: 1;
+margin-left:10px;
+text-align:center;
+align-content: space-between;
+}
+.display__info{
+margin-top: 10px;
+display: flex;
+flex: 1;
+flex-direction: column;
+}
+.display> h1{
+text-align: center;
+}
+
+.display__card{
+margin:24px 13px;
+}
+.display__info > p{
+color:#2FC8B8;
+}
+.display__info > .display__p{
+color:black;
+}
