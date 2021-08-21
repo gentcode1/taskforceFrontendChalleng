@@ -60,7 +60,7 @@ return (
             </option>
             {countries.map((country) => (
               <option value={country.value}>
-                <img src={country.countryInfo.flag} alt="" />
+                <img src={country.flag} alt="" />
                 {country.name}
               </option>
             ))}
